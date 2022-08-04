@@ -9,15 +9,17 @@
     <title>PicknPay</title>
 </head>
 <body>
-    <nav id="nav1" class="navbar navbar-expand-lg">
+    <div class="container">
+      <header id="nav1" class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <label>Your Region:</label> 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a id="drop" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Gauteng
                 </a>
+                </li>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Freestate</a></li>
                   <li><a class="dropdown-item" href="#">Eastern Cape</a></li>
@@ -27,22 +29,13 @@
                   <li><a class="dropdown-item" href="#">Western Cape</a></li>
                 </ul>
             </ul>
-            <select>
-                <option disabled selected value>Gauteng Online</option>
-                <option value="Freestate">Freestate</option>
-                <option value="Eastern Cape">Eastern Cape</option>
-                <option value="Gauteng">Gauteng</option>
-                <option value="Mpumalanga">Mpumalanga</option>
-                <option value="Kwazulu/Natal">Kwazulu/Natal</option>
-                <option value="Western Cape">Western Cape</option>
-            </select>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul id="lgsg" class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li><a href="#">LOG IN</a></li> |
                 <li><a href="#">SIGN UP</a></li>
             </ul>
         </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg">
+    </header>
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img id="logo" src="https://i.postimg.cc/yYFHzQN8/picknpay.png" alt="Logo"> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,25 +44,270 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <input id="searchbar" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             </form>
-            <button>
+            <button id="btn">
                 <i class="fa-solid fa-file-lines"></i>Online Orders
             </button>
-            <button>
+            <button id="btn2">
                 <i class="fa-solid fa-heart"></i>Favourites & Lists
             </button>
-            <i class="fa-solid fa-truck"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <div id="order">
+              <i class="fa-solid fa-truck"></i>
+              <p>Book</p>
+            </div>
+            <div id="order2">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p>Trolley</p>
+            </div>
+            
           </div>
         </div>
-
       </nav>
-        
-    
+      <nav>
+          <ul id="links">
 
-         
+              <li id="link" class="nav-item dropdown"><a id="link2" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop by Aisle</a></li>
+              <li id="link">Specials</li>
+              <li id="link"class="nav-item dropdown"><a id="link2" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Winter</a></li>
+              <li id="link">Recipes</li>
+              <li id="link"class="nav-item dropdown"><a id="link2" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Smart Shopper</a></li>
+              <li id="link">Pick n Pay asap!</li>
+              <li id="link">In-Store Catalogues</li>
+              <li id="link">Feed The Nation</li>
+          </ul>
+      </nav>
+      <div id="party">
+        <p>There are no more party packs left today. 😲 Come back tomorrow for another FREE party pack! Hurry, daily limits apply. Valid 1 - 7 Aug 2022.</p>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://i.postimg.cc/DfCV90xv/Birthday-Homepage-Header.gif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.postimg.cc/G3gNMNp9/OLS-Party-Pack-HP-Banner-Nivea-Always-On-4-Days.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.postimg.cc/xjG8Mvjs/OLS-Homepage-Banner-Desktop-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.postimg.cc/Mp29N8JZ/Same-Day-Delivery-Desktop01.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <hr>
+      <button>Book A Delivery</button>
+      <button>Shop SpecialS</button>
+      <button>Clothing</button>
+      <button>Competitions</button>
+      <button>Track My Orders</button>
+      <button>PnP Moblie</button>
+
+      <h1>Shop Our Top Sellers</h1>
+
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+      <button>
+        Shop Now>
+      </button>
+      <h1>Top Online Deals</h1>
+
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+      <button>
+        Shop Now>
+      </button>
+      <h1>Lights On - Load Shedding Esstentials</h1>
+
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+      <button>
+        Shop Now>
+      </button>
+      <h1>Crafted Collect For Any Occasion</h1>
+
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+      <button>
+        Shop Now>
+      </button>
+      <h1>House & Home Savings</h1>
+
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+      <button>
+        Shop Now>
+      </button>
+      <h1>For The Ultimate Cheese Board</h1>
+
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/id/237/200/300" alt="...">
+        </div>
+      <button>
+        Shop Now>
+      </button>
+    <h1>Inspiration From Pnp</h1>
+    <div class="card">
+      <img src="https://i.postimg.cc/QM2fcGNW/Winter-Drinks-Homepage.jpg" alt="...">
+    </div>
+    <div class="card">
+      <img src="https://i.postimg.cc/W1K8PLkf/Cook-In-Homepage.jpg" alt="...">
+    </div>
+    <div class="card">
+      <img src="https://i.postimg.cc/Pf387bZS/Bakery-Homepage.jpg" alt="...">
+    </div>
+    <div class="card">
+      <img src="https://i.postimg.cc/gk78xy2x/Breakfast-Homepage.jpg" alt="...">
+    </div>
+    <div class="container">
+      <img id="" src="https://i.postimg.cc/sfNvmjd8/HOMEPAGE-SPECIALS-1160-X300-NO-PINK-Desktop.jpg" alt="...">
+      <img id="" src="https://i.postimg.cc/QC9Nw7Gz/hmpg-banner-1160x300.jpg" alt="">
+    </div>
+    
+    <h1>Reasons Top Shop With Us</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <i id="reason" class="fa-solid fa-truck"></i>
+      </div>
+      <div class="col-md-4">
+        <i id="reason" class="fa-solid fa-motorcycle"></i>
+      </div>
+      <div class="col-md-4">
+        <i id="reason" class="fa-solid fa-store"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <i id="reason" class="fa-solid fa-address-card"></i>
+      </div>
+      <div class="col-md-4">
+        <i id="reason" class="fa-solid fa-box-open"></i>
+      </div>
+      <div class="col-md-4">
+        <i id="reason" class="fa-solid fa-medal"></i>
+      </div>
+    </div>
+    </div>
+    <footer>
+      <div class="container">
+        <img id="logo2" src="https://i.postimg.cc/V60XJLVM/PicknPay.png" alt="">
+        <ul>
+          <li>Company</li>
+          <li>Useful Links</li>
+          <li>Moblie & Money</li>
+          <li>Help</li>
+        </ul>
+      <hr>
+        <div class="row">
+          <div class="col-md-4">
+           <h2>Showing Our New Shopping App</h2>
+           <img id="store" src="https://i.postimg.cc/rw7GG42s/App-Store.png" alt="">
+           <img id="store" src="https://i.postimg.cc/gJSf44z8/Google-Play.png" alt="">
+           <img id="store" src="https://i.postimg.cc/d3cS5XM7/App-Gallery.png" alt=""> 
+          </div>
+          <div class="col-md-4">
+            &copy;2022 Pick n Pay All Rights Reserved
+            <p>Privacy Portal | Copyright | Returns Policy | CPA | Customer Communication</p>
+          </div>
+          <div class="col-md-4">
+           <h2>Follow Us On:</h2> 
+           <i class="fa-brands fa-facebook"></i>
+           <i class="fa-brands fa-twitter"></i>
+           <i class="fa-brands fa-youtube"></i>
+           <i class="fa-brands fa-pinterest"></i>
+           <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/2f3228667e.js" crossorigin="anonymous"></script>
 
